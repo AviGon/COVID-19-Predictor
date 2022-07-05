@@ -3,4 +3,4 @@ Developed a website which gives predictions of covid based on the input paramete
 The website also gives latest news related to covid via an API from newsapi <br>
 Frontend: html, css <br>
 Backend: Flask <br>
-Machine Learning Model Used: Support Vector Machines.<br>
+Machine Learning Model Used: Logistic Regression.<br>
