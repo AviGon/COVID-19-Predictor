@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Covid 19 Predictor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="C:\Users\avi_g\Desktop\Covid-19 detector\Templates\styles.css"> -->
+        <link rel="icon" type="image/x-icon" href="C:\Users\avi_g\Desktop\Covid-19 detector\Templates\favicon.ico">
+        <style>
+            *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    /* display: flex; */
+    height:100vh;
+    background: linear-gradient(135deg,#05073a,#dc0606ca);
+    padding:20px;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    margin:20px;
+    font-size: 80px;
+}
+h3{
+    padding:15px;
+    margin: 5px;
+    font-size: 35px;
+}
+.news{
+    max-width: 100%;
+    width:100%;
+    padding:25px 30px;
+    border-radius: 25px;
+    margin:auto;
+    background: linear-gradient(135deg,#dc0606ca, #05073a);
+}
+.news .image{
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.container{
+    max-width: 700px;
+    width:600px;
+    padding:25px 30px;
+    border-radius: 25px;
+    margin:auto;
+    background: linear-gradient(135deg,#dc0606ca, #05073a);
+}
+.container form .card-details{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap:wrap;
+}
+form .card-details .card-box{
+    width: calc(100%/2 -20px);
+    margin-bottom: 10px;
+}
+.card-details .card-box .details{
+    display:block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card-details .card-box input{
+    height: 45px;
+    width: 100%;
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+    border-color: #9b59b6;
+}
+form .button{
+    display: inline-block;
+  margin: 10px auto;
+  width: 150px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(135deg, #05073a, #dc0606ca);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+form .button:hover{
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}
+form .button:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a:link, a:visited {
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+a:hover, a:active {
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}
+        </style>
+    </head>
+    <body>
+
+        <h1>Welcome! How may we help you?</h1>
+        <a href="/news">Get To Know Latest News About Covid</a>
+        <a href="/give">Get To Know Your Probability of Covid</a>
+        <a href="/contact">Contact us</a>
+        <!-- <a href="/contact">Contact us!</a>
+        <div class="news">
+
+            {% for new,desc,i,url in context %}
+            <img class="images" src="{{i}}" alt="">
+            <h3>News:</h3> {{new}}
+            <h4>Description: </h4> {{desc}}
+            <br>
+            <a href="{{url}}" target="_blank">Learn More Here</a>
+
+            {% endfor %}
+
+        </div>
+        <h1>Covid 19 Predictor</h1>
+        <br>
+        <h3>Enter your Details to predict Covid 19</h3>
+        <h3 align="center" <b>{{prediction}}</b></h3>
+        <br>
+        <div class="container">
+           <form action='/predict' method="post">
+               <div class="card-details">
+                   <div class="card-box">
+                       <span class="details">Age</span>
+                       <input type="text"  name="Age" placeholder="Enter Your Age">
+                   </div>
+                <div class="card-box">
+                    <span class="details">Fatigue (0 or 1)</span>
+                    <input type="text" name="Fatigue" placeholder="Do you have Fatigue?">
+                </div>
+                <div class="card-box">
+                    <span class="details">Cough (0 or 1)</span>
+                    <input type="text" name="Cough" placeholder="Any Cough?">
+                </div>
+                <div class="card-box">
+                    <span class="details">BodyPain (0 or 1)</span>
+                    <input type="text" name="BodyPain" placeholder="Any Body Pains?">
+                </div>
+                <div class="card-box">
+                    <span class="details">SoreThroat (0 or 1 or 2)</span>
+                    <input type="text" name="SoreThroat" placeholder="How sore is your throat?">
+                </div>
+                <div class="card-box">
+                    <span class="details">Breathing Difficulty (0 or 1 or 2)</span>
+                    <input type="text" name="BreathingDifficulty" placeholder="How difficult is breathing">
+                </div>
+               </div>
+                   <button class="button" type="submit">Predict</button>
+           </form>
+        </div>
+        
+         -->
+    </body>
+</html>

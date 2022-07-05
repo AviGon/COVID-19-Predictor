@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    /* display: flex; */
+    height:100vh;
+    background: linear-gradient(135deg,#05073a,#dc0606ca);
+    padding:20px;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    margin:20px;
+    font-size: 80px;
+}
+h3{
+    padding:15px;
+    margin: 5px;
+    font-size: 35px;
+}
+.container{
+    max-width: 700px;
+    width:600px;
+    padding:25px 30px;
+    border-radius: 25px;
+    margin:auto;
+    background: linear-gradient(135deg,#dc0606ca, #05073a);
+}
+.container form .card-details{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap:wrap;
+}
+form .card-details .card-box{
+    width: calc(100%/2 -20px);
+    margin-bottom: 10px;
+}
+.card-details .card-box .details{
+    display:block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card-details .card-box input{
+    height: 45px;
+    width: 100%;
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+    border-color: #9b59b6;
+}
+form .button{
+    text-align:center;
+}
+form .button input{
+    margin-top: 10px;
+    height: 30px;
+    width: 120px; 
+    outline: none;
+    color: #fff;
+    border:none;
+    font-size:15px;
+    font-weight:500;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}

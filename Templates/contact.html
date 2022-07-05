@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Us</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="C:\Users\avi_g\Desktop\Covid-19 detector\Templates\favicon.ico">
+        <style>
+            *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    /* display: flex; */
+    height:100vh;
+    background: linear-gradient(135deg,#05073a,#dc0606ca);
+    padding:20px;
+    text-align: center;
+}
+.contact-box{
+    max-width: 700px;
+    width:600px;
+    padding:25px 30px;
+    border-radius: 25px;
+    margin:auto;
+    background: linear-gradient(135deg,#dc0606ca, #05073a);
+}
+form{
+    margin: 35px;
+}
+form .input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    padding-top: 10px;
+}
+.button{
+    display: inline-block;
+  margin: 10px auto;
+  width: 150px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(135deg, #05073a, #dc0606ca);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover{
+    background: linear-gradient(-135deg, #05073a, #dc0606ca);
+}
+.button:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+    </head>
+    <body>
+        <div class="contact-box">
+            <h1>Connect with us</h1>
+            <form action="https://formsubmit.co/el/gexozi" method="POST">
+                <input type="text" class="input-field" placeholder="Your Name" required>
+                <input type="email" class="input-field" placeholder="Your Email" required>
+                <input type="text" class="input-field" placeholder="Subject" required>
+                <textarea type="text" class="textarea-field" placeholder="Your Message" required></textarea>
+                <button type="button" class="button">Send</button>
+            </form>
+
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
