@@ -1,5 +1,6 @@
 from datetime import datetime
 from flask import Flask,render_template,request
+import newsapi 
 from newsapi import NewsApiClient
 import pickle
 import numpy as np
