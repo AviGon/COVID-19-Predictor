@@ -4,3 +4,5 @@ The website also gives latest news related to covid via an API from newsapi <br>
 Frontend: html, css <br>
 Backend: Flask <br>
 Machine Learning Model Used: Logistic Regression.<br>
+
+Website Link: http://avigon.pythonanywhere.com/
